@@ -50,9 +50,8 @@ int main()
     {
         string a1,b1;
         cin>>a1>>b1;
-        int mx=max(a1.size(),b1.size());
-        vector<ll>a(mx,0);
-        vector<ll>b(mx,0);
+        vector<ll>a;
+        vector<ll>b;
         for(auto x:a1)
         {
             a.push_back(x-'0');
